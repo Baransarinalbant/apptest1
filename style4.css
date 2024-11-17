@@ -1,0 +1,31 @@
+#leaderboard {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard-item .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .leaderboard-item .rank {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .leaderboard-item .username {
+    margin-right: 10px;
+  }
+  
+  .leaderboard-item .points {
+    font-weight: bold;
+  }
+  

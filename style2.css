@@ -1,0 +1,29 @@
+#character-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.character img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.character img:hover {
+    border: 2px solid #00f; /* Blå kant när man hovrar över bilden */
+}
+
+#profileImageDisplay {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

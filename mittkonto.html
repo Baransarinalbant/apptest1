@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Konto</title>
+    <link rel="stylesheet" href="stylekonto.css">
+</head>
+<body>
+    <h1>Mitt Konto</h1>
+    <img id="user-avatar" src="" alt="Din avatar">
+    <p>Inloggad som: <span id="username"></span></p>
+    <p>Poäng: <span id="user-points"></span></p>
+    <p>Nivå: <span id="levelDisplay"></span></p>
+    
+
+    <p>Här kan du ändra ditt lösenord</p>
+
+    <form id="change-password-form">
+        <label for="old-password">Gamla lösenord:</label>
+        <input type="password" id="old-password" required>
+        
+        <label for="new-password">Nytt lösenord:</label>
+        <input type="password" id="new-password" required>
+        
+        <button type="submit">Byt lösenord</button>
+    </form>
+
+    <div id="avatar-selection">
+        <p>Ändra avatar:</p>
+        <div>
+          <img src="assets/avatars/avatar1.png" class="avatar-option" data-avatar="avatar1.png" alt="Avatar 1">
+          <img src="assets/avatars/avatar2.png" class="avatar-option" data-avatar="avatar2.png" alt="Avatar 2">
+          <img src="assets/avatars/avatar3.png" class="avatar-option" data-avatar="avatar3.png" alt="Avatar 3">
+          <img src="assets/avatars/avatar4.png" class="avatar-option" data-avatar="avatar4.png" alt="Avatar 4">
+          <img src="assets/avatars/avatar5.png" class="avatar-option" data-avatar="avatar5.png" alt="Avatar 5">
+          <img src="assets/avatars/avatar6.png" class="avatar-option" data-avatar="avatar6.png" alt="Avatar 6">
+          <img src="assets/avatars/avatar7.png" class="avatar-option" data-avatar="avatar7.png" alt="Avatar 7">
+          <img src="assets/avatars/avatar8.png" class="avatar-option" data-avatar="avatar8.png" alt="Avatar 8">
+          <img src="assets/avatars/avatar9.png" class="avatar-option" data-avatar="avatar9.png" alt="Avatar 9">
+          <img src="assets/avatars/avatar10.png" class="avatar-option" data-avatar="avatar10.png" alt="Avatar 10">
+          <img src="assets/avatars/avatar11.png" class="avatar-option" data-avatar="avatar11.png" alt="Avatar 11">
+          <img src="assets/avatars/avatar12.png" class="avatar-option" data-avatar="avatar12.png" alt="Avatar 12">
+          <img src="assets/avatars/avatar13.png" class="avatar-option" data-avatar="avatar13.png" alt="Avatar 13">
+          <img src="assets/avatars/avatar14.png" class="avatar-option" data-avatar="avatar14.png" alt="Avatar 14">
+          <img src="assets/avatars/avatar15.png" class="avatar-option" data-avatar="avatar15.png" alt="Avatar 15">
+        </div>
+        <button id="save-avatar">Spara avatar</button>
+      </div>
+      
+
+
+    <button id="logout-button">Logga ut</button>
+
+
+    <script type="module" src="mittkonto.js"></script>
+</body>
+</html>

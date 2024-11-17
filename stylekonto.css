@@ -1,0 +1,23 @@
+#avatar-selection img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+  }
+  
+  #avatar-selection img.selected {
+    border: 2px solid blue;
+  }
+  
+  #user-avatar {
+    width: 100px; /* Storleken på avataren */
+    height: 100px; /* Gör bilden kvadratisk */
+    border-radius: 50%; /* Gör bilden rund */
+    border: 3px solid #4CAF50; /* Lägg till en färgad kant */
+    object-fit: cover; /* Gör att bilden fyller ramen utan att förvrängas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lägg till en lätt skugga för djup */
+    margin: 10px auto; /* Centrerar avataren om den ligger i ett block */
+    background-color: #f3f3f3; /* Reservfärg om ingen bild laddas */
+}
